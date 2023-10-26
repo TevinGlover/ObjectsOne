@@ -1,0 +1,16 @@
+package object1;
+
+import java.util.logging.Logger;
+
+public class Main {
+class person {
+    String name;
+    int age = 0;
+    double height = 0; //in centirmeters
+    public person(String name, int age, double ) {
+        this.name = name;
+        this.age = age;
+
+    }
+}
+person person1 = new person("tevin",30);
